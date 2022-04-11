@@ -1,0 +1,60 @@
+.sections {
+    font-family: Monospace;
+}
+
+.sections {
+    background-color: #3d3f42;
+}
+
+.sections {
+    border-radius: 10px;
+    color: #4a6ea8;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(40, 40, 47, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+p {
+    color: grey;
+}
+
+li {
+    color: grey;
+    font-family: Helvetica;
+}
+
+ul {
+    list-style: none;
+    /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #D3CAC8;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+img {
+ border-radius: 25px;
+  background: #4a6ea8;
+padding: 5px;
+  width: 200px;
+  height: 150px;
+}
+
+h2 {text-align: center;}
+
+a:hover {
+  color: white;
+}
